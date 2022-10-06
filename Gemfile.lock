@@ -38,8 +38,8 @@ GEM
       i18n (~> 0.7)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.1)
-      public_suffix (~> 2.0, >= 2.0.2)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
@@ -63,7 +63,7 @@ GEM
     concurrent-ruby (1.0.5)
     erubi (1.6.1)
     execjs (2.7.0)
-    ffi (1.9.18-x86-mingw32)
+    ffi (1.9.18)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
     i18n (0.8.6)
@@ -83,10 +83,10 @@ GEM
     minitest (5.10.3)
     multi_json (1.12.1)
     nio4r (2.1.0)
-    nokogiri (1.8.0-x86-mingw32)
+    nokogiri (1.8.0)
       mini_portile2 (~> 2.2.0)
-    pg (0.21.0-x86-mingw32)
-    public_suffix (2.0.5)
+    pg (0.21.0)
+    public_suffix (5.0.0)
     puma (3.9.1)
     rack (2.0.3)
     rack-test (0.6.3)
@@ -165,6 +165,7 @@ GEM
 
 PLATFORMS
   x86-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   byebug
